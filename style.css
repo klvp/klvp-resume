@@ -132,10 +132,6 @@ input {
   transition: opacity 0.2s;
 }
 
-/* input:hover {
-  opacity: 1;
-} */
-
 input::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -155,16 +151,24 @@ input::-webkit-slider-thumb {
   text-align: justify;
 }
 
-.education tr td {
-  text-align: center;
-  padding: 0.5rem;
+.education table {
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.education th,
+.education td {
+  padding: 10px 5px;
+  text-align: left;
 }
 
 @media (max-width: 1300px) {
   body {
     max-width: 100%;
     margin: 3rem 3rem;
-    box-shadow: none;
+    box-shadow: 5px 5px 16px #565656;
   }
   .skills tr {
     display: flex;
