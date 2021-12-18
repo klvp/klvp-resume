@@ -171,6 +171,9 @@ input::-webkit-slider-thumb {
     flex-direction: column;
     place-items: center;
   }
+  /* #right-content {
+    padding-left: ;
+  } */
 }
 
 @media (max-width: 750px) {
