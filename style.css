@@ -178,6 +178,17 @@ input::-webkit-slider-thumb {
   /* #right-content {
     padding-left: ;
   } */
+  header h2 {
+    padding: 1rem 1.9rem;
+    background-color: #f9bf28;
+    font-size: 1.5rem;
+    position: relative;
+    top: 2.3rem;
+    border-radius: 0.5rem;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 750px) {
@@ -195,5 +206,16 @@ input::-webkit-slider-thumb {
   #left-content {
     width: 100%;
     border-right: none;
+  }
+    header h2 {
+    padding: 1rem 1.9rem;
+    background-color: #f9bf28;
+    font-size: 1rem;
+    position: relative;
+    top: 2.3rem;
+    border-radius: 0.5rem;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
   }
 }
